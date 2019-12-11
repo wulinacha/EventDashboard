@@ -5,7 +5,6 @@ COPY package.json /animaris/package.json
 RUN npm i --production --registry=https://registry.npm.taobao.org
 
 COPY src /animaris/src
-COPY view /animaris/view
 COPY www /animaris/www
 COPY production.js /animaris/production.js
 
