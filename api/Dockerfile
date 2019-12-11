@@ -7,7 +7,6 @@ RUN npm i --production --registry=https://registry.npm.taobao.org
 COPY src /animaris/src
 COPY www /animaris/www
 COPY production.js /animaris/production.js
-COPY package-lock.json /animaris/package-lock.json
 
 ENV DOCKER=true
 EXPOSE 8360
